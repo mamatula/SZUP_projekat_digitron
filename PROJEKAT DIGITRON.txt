@@ -11,4 +11,17 @@ int main()
     printf("Izaberite operaciju:\n");
     printf("1 - Sabiranje\n2 - Oduzimanje\n3 - Mnozenje\n4 - Deljenje\n\n");
     scanf("%d",&izbor);
+    
+    int rez;
+    if(izbor == 1)
+        printf("Rezultat: %d",a+b);
+    else if(izbor == 2)
+        printf("Rezultat: %d",a-b);
+    else if(izbor == 3)
+        printf("Rezultat: %d",a*b);
+    else if(izbor == 4)
+        printf("Rezultat: %d",a/b);
+    else
+        printf("Ne postoji opcija");
+    
 }
