@@ -20,7 +20,7 @@ int main()
     else if(izbor == 3)
         printf("Rezultat: %d",a*b);
     else if(izbor == 4)
-        printf("Rezultat: %d",a/b);
+        printf("Rezultat: %.2f",(float)a/b);
     else
         printf("Ne postoji opcija");
     
