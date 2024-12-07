@@ -1,0 +1,27 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    printf("Unesite vrednost a:\n");
+    scanf("%d",&a);
+    printf("Unesite vrednost b:\n");
+    scanf("%d",&b);
+    
+    int izbor;
+    printf("Izaberite operaciju:\n");
+    printf("1 - Sabiranje\n2 - Oduzimanje\n3 - Mnozenje\n4 - Deljenje\n\n");
+    scanf("%d",&izbor);
+    
+    int rez;
+    if(izbor == 1)
+        printf("Rezultat: %d",a+b);
+    else if(izbor == 2)
+        printf("Rezultat: %d",a-b);
+    else if(izbor == 3)
+        printf("Rezultat: %d",a*b);
+    else if(izbor == 4)
+        printf("Rezultat: %.2f",(float)a/b);
+    else
+        printf("Ne postoji opcija");
+    
+}
