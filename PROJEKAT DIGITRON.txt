@@ -6,4 +6,9 @@ int main()
     scanf("%d",&a);
     printf("Unesite vrednost b:\n");
     scanf("%d",&b);
+    
+    int izbor;
+    printf("Izaberite operaciju:\n");
+    printf("1 - Sabiranje\n2 - Oduzimanje\n3 - Mnozenje\n4 - Deljenje\n\n");
+    scanf("%d",&izbor);
 }
