@@ -8,11 +8,9 @@ int main()
     scanf("%d",&b);
     
     int izbor;
-    printf("Izaberite operaciju:\n");
-    printf("1 - Sabiranje\n2 - Oduzimanje\n3 - Mnozenje\n4 - Deljenje\n\n");
+    printf("Izaberite operaciju:\n1 - Sabiranje\n2 - Oduzimanje\n3 - Mnozenje\n4 - Deljenje\n\n");
     scanf("%d",&izbor);
     
-    int rez;
     if(izbor == 1)
         printf("Rezultat: %d",a+b);
     else if(izbor == 2)
@@ -22,6 +20,6 @@ int main()
     else if(izbor == 4)
         printf("Rezultat: %.2f",(float)a/b);
     else
-        printf("Ne postoji opcija");
+        printf("Ne postoji opcija!");
     
 }
